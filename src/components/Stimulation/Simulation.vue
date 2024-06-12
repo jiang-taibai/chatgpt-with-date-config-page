@@ -24,7 +24,9 @@ import Message from "./Message.vue";
     <n-scrollbar style="max-height: 100vh">
       <div class="messages">
         <message :dark="props.dark" v-for="message in props.dialogue" :key="message.id"
-                 :content="message.content" :chatgpt="message.chatgpt" :data-message-id="message.dataMessageId"/>
+                 :content="message.content" :chatgpt="message.chatgpt"
+                 :data-message-id="message.dataMessageId"
+                 :timestamp="message.timestamp"/>
       </div>
     </n-scrollbar>
   </div>
