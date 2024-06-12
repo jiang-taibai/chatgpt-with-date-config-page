@@ -86,6 +86,8 @@ const props = defineProps({
 
   .content-box {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 
     .nickname {
       font-size: 16px;
