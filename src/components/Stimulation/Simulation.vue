@@ -45,7 +45,7 @@ import Message from "./Message.vue";
 }
 
 .container.dark {
-  background-color: #333;
+  background-color: #212121;
   color: #fff;
 }
 </style>
